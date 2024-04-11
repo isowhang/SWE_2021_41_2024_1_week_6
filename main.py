@@ -7,7 +7,8 @@ def twoSum(nums: List[int], target: int) -> List[int]
             for j in range(i, sizeOfNums, 1):
                 if(nums[i]+nums[j] == target):
                   result = "[" + i +"," + j + "]"
-        return result
+                  print(result)
+        return
 
     
     
